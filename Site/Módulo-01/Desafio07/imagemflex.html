@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio-07</title>
+</head>
+<body>
+    <h1>Curso de HTML e CSS</h1>
+    <h2>Desafio da Imagem Flexível</h2>
+    <p>Se a imagem estiver pequena, experimente mudar o tamanho da tela, para ver a imagem completa!</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/paisagem-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/paisagem-m.png" type="image/png">
+        <img src="imagens/paisagem-g.png" alt="Imagem flexível">
+    </picture>
+</body>
+</html>
