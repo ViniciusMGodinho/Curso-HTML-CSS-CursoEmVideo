@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+
+@font-face {
+    font-family: 'Android';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: rgb(163, 241, 163);;
+    width: 300px;
+    padding: 10px;
+}
+
+#titulo-principal {
+    font-family: 'Gruppo', sans-serif;
+    font-weight: bold;
+    color: snow;
+    font-size: 2em;
+}
+
+#texto-especial{
+    font-family: 'Gruppo', sans-serif;
+    color: snow;
+    font-size: 1em;
+}
+
+h1 {
+    font-family: 'Android';
+    font-size: 2em;
+    font-weight: normal;
+    color: darkgreen;
+}
+h2 {
+    font-family: 'Android';
+    font-size: 2em;
+    font-weight: normal; 
+    color: darkgreen;
+    background-color: black;
+}
